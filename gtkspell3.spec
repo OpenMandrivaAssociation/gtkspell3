@@ -34,13 +34,13 @@ developing applications that use GtkSpell API version 3.0.
 %setup -q
 
 %build
-./configure2_5x --disable-static --enable-vala --prefix=%{_prefix} --libdir=%{_libdir}
+%configure2_5x --disable-static --enable-vala --prefix=%{_prefix} --libdir=%{_libdir}
 %make V=1
 
 %install
 %makeinstall_std
 
-find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
+find %{buildroot} -name '*.la' -exec rm -f {} ';'
 
 %find_lang gtkspell3
 
