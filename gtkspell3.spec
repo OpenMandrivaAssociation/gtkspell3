@@ -1,6 +1,6 @@
 Name:           gtkspell3
 Version:        3.0.6
-Release:        2
+Release:        3
 Summary:        On-the-fly spell checking for GtkTextView widgets
 
 License:        GPLv2+
