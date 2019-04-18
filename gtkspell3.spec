@@ -1,14 +1,14 @@
 Name:           gtkspell3
-Version:        3.0.8
-Release:        2
+Version:        3.0.10
+Release:        1
 Summary:        On-the-fly spell checking for GtkTextView widgets
 
 License:        GPLv2+
 Group:		System/Libraries
 URL:            http://gtkspell.sourceforge.net/
-Source0:        http://downloads.sourceforge.net/gtkspell/gtkspell3-%{version}.tar.gz
+Source0:        http://downloads.sourceforge.net/gtkspell/gtkspell3-%{version}.tar.xz
 
-BuildRequires:  pkgconfig(enchant)
+BuildRequires:  pkgconfig(enchant-2)
 BuildRequires:  gettext
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
