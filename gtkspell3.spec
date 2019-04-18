@@ -8,7 +8,7 @@ Group:		System/Libraries
 URL:            http://gtkspell.sourceforge.net/
 Source0:        http://downloads.sourceforge.net/gtkspell/gtkspell3-%{version}.tar.xz
 
-BuildRequires:  pkgconfig(enchant)
+BuildRequires:  pkgconfig(enchant-2)
 BuildRequires:  gettext
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
