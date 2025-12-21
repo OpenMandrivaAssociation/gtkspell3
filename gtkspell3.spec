@@ -8,6 +8,11 @@ Group:		System/Libraries
 URL:            https://gtkspell.sourceforge.net/
 Source0:        http://downloads.sourceforge.net/gtkspell/gtkspell3-%{version}.tar.xz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  pkgconfig(enchant-2)
 BuildRequires:  gettext
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
